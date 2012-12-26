@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Select image"
+        android:id="@+id/txt"
+        tools:context=".MainActivity" />
+    
+    <EditText  android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailaddress"
+        android:text="geniousnirav@gmail.com"
+        android:layout_below="@id/txt"
+        ></EditText>
+     <EditText  android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailsubject"
+        android:text="hi"
+        android:layout_below="@id/emailaddress"
+        ></EditText>
+      <EditText  android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailtext"
+        android:text="demo"
+        android:layout_below="@id/emailsubject"
+        ></EditText>
+      
+      
+      <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailsendbutton"
+        android:text="Send"
+        android:layout_below="@id/emailtext"
+        ></Button>
+    
+    
+
+</RelativeLayout>
